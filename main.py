@@ -18,5 +18,4 @@ plt.ylim(0, 1)
 plt.xlim(0, n)
 plt.xlabel('X')
 plt.ylabel('Y')
-
 plt.show()
