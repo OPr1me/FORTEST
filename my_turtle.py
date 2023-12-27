@@ -5,6 +5,8 @@ window = turtle.Screen()
 ...
 
 turtlePen.color('green')
+
+
 def polygon(n, size=120):
     if n > 2:
         angle = 360 / n
