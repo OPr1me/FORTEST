@@ -20,11 +20,11 @@ data = [i for i in data if i % 24 != 0]
 ans_max = []
 for i in range(9, 0, -1):
     ans_max.append(find_max([j for j in map(str, data) if j[0] == str(i)]))
-ans_max = int("".join(ans_max))
+max_number = int("".join(ans_max))
 
 ans_min = []
 for i in range(1, 10):
     ans_min.append(find_min([j for j in map(str, data) if j[0] == str(i)]))
-ans_min = int("".join(ans_min))
+min_number = int("".join(ans_min))
 
-print(ans_min + ans_max)
+print(max_number + min_number)
